@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ms-customer
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 9091
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    eurekaUrl:
+      defaultZone: http://localhost:8761/eureka/
